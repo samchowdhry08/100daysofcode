@@ -24,5 +24,5 @@ int main()
     b = a - b;
     a = a- b;
     printf("The swapped numbers are = %d %d", a,b);
-    return 0;
+    return 0:
 }
