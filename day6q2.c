@@ -39,3 +39,4 @@ int main()
         }
     }
 }
+// Day 6 question 2
