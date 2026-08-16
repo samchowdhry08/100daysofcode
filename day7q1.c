@@ -32,4 +32,5 @@ int main()
     else {
         printf("The year is not a leap year");
     }
+    return 0;
 }
