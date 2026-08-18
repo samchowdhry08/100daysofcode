@@ -28,3 +28,37 @@ Output 4:
 Grade F
 
 */
+#include <stdio.h>
+int main()
+{
+    int percentage;
+    printf("Enter the percentage = ");
+    scanf("%d",&percentage);
+    if ( percentage<0 ||percentage>100)
+    {
+        printf("Percentage can only be between 0 and 100");
+    }
+    else {
+        if (90<=percentage && percentage<=100)
+    {
+        printf("Grade A");
+    }
+    else if(80<=percentage && percentage<=89)
+    {
+        printf("Grade B");
+    }
+    else if(70<=percentage && percentage<=79)
+    {
+        printf("Grade C");
+    }
+    else if(60<=percentage && percentage<=69)
+    {
+        printf("Grade D");
+    }
+    else {
+        printf("Grade F");
+    }
+    }
+    return 0;
+    
+}
